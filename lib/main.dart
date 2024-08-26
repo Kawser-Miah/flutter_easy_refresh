@@ -1,5 +1,5 @@
 import 'package:easy_refresh_flutter/complex_example.dart';
-//import 'package:easy_refresh_flutter/simple_example.dart';
+// import 'package:easy_refresh_flutter/simple_example.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(useMaterial3: true),
-      //home: const SimpleEasyRefresh(),
+      theme: ThemeData.light(useMaterial3: false),
+      // home: const SimpleEasyRefresh(),
       home: const ComplexEasyRefreshExample(),
     );
   }

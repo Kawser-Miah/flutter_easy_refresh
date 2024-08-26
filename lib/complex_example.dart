@@ -59,7 +59,7 @@ class _ComplexEasyRefreshExampleState extends State<ComplexEasyRefreshExample> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('EasyRefresh Complex Example'),
+        title: const Text('Coseries'),
       ),
       body: EasyRefresh(
         onRefresh: () async {
